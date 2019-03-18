@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
 }
 
 .App-logo {
@@ -30,4 +32,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Navigation {
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(14, 112, 42);
+}
+
+.Navigation:hover {
+  color: rgb(160, 19, 231);
+}
+
+.Navigation:active {
+  color: rgb(240, 17, 177);
+}
+
+.Home {
+  font-family: 'Righteous', cursive;
+  font-size: 3em;
+}
+
+.HeaderOne, .LinkOne {
+  font-family: 'Righteous', cursive;
+  font-size: 1em;
+}
+
+.LinkOne {
+  color: rgb(14, 112, 42);
+}
+.LinkOne:hover {
+  color: rgb(160, 19, 231);
+}
+
+.LinkOne:active {
+  color: rgb(240, 17, 177);
+}
+
+.HeaderTwo {
+  font-family: 'Righteous', cursive;
 }
